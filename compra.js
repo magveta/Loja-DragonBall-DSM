@@ -37,7 +37,7 @@ function atualizar_carrinho() {
     let lista = document.getElementById('lista-carrinho');
     let carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
 
-    total.textContent = "xereca gordinha";
+    total.textContent = `TOTAL:     ${lista.length}`;
 
     carrinho.forEach(item => {
         let li = document.createElement('li');
