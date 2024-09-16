@@ -37,6 +37,20 @@
 <!--Corpo do arquivo-->
 <body>
 
+  <div class="form">
+    <form class="row g-3">
+      <div class="col-auto">
+        <label for="inputEmail2" class="visually-hidden">Email</label>
+        <input class="form-control" id="inputEmail" placeholder="Email">
+      </div>
+      <div class="col-auto">
+        <label for="inputSenha2" class="visually-hidden">Senha</label>
+        <input type="password" class="form-control" id="inputSenha" placeholder="Senha">
+        <h1></h1>
+        <button onclick="logar(inputEmail, inputSenha)" type="submit" class="btn btn-primary mb-3">Logar!</button>
+      </div>
+    </form>
+  </div>
 
     <!--JavaScript do Bootstrap-->
     <script src="login.js"></script>
