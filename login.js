@@ -33,3 +33,9 @@ function logar() {
         alert("E-mail ou Senha incorretos ou inexistentes. Tente novamente.");
     }
 }
+
+function registrar_teste() {
+    let contas = JSON.parse(localStorage.getItem('contas')) || [];
+    contas.push({email: "teste@email.com", senha: "senhateste"});
+    localStorage.setItem('contas', JSON.stringify(contas));
+}
