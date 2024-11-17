@@ -46,12 +46,18 @@
       <div class="container">
         <h1 id="total" class="display-4">TOTAL: </h1>
       </div>
-      <button id="botao-comprar" type="button" class="btn btn-primary btn-lg btn-block">Finalizar Compra</button>
-    <script>
-      document.getElementById("botao-comprar").onclick = function () {
-        location.href = "tela_compra.html";
-      };
-    </script>
+      <button id="botao-comprar" type="button" class="btns btn-primary btn-lg btn-block">Finalizar Compra</button>
+      <br>
+      <br>
+      <h3>Forma de pagamento: </h3>
+      <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+        <option selected>Boleto Bancário</option>
+        <option value="1">Pix</option>
+        <option value="2">Cartão (Débito ou crédito)</option>
+      </select>
+      <br>
+      <br>
+      <img src="assets/image.png"> 
     </div>
   </div>
 
